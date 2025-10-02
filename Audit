@@ -1,0 +1,21 @@
+
+-- Master Audit Table (Batch-Level)
+
+
+CREATE TABLE enrichment_audit (
+    audit_id INT IDENTITY(1,1) PRIMARY KEY,
+    batch_id UNIQUEIDENTIFIER DEFAULT NEWID(),
+    source_system NVARCHAR(50),       -- e.g., MongoDB, MySQL, API
+    operation_mode NVARCHAR(20),      -- e.g., FULL_LOAD, INCREMENTAL
+    total_records INT,
+    successful_inserts INT DEFAULT 0,
+    successful_updates INT DEFAULT 0,
+    successful_deletes INT DEFAULT 0,
+    failed_records INT DEFAULT 0,
+    processing_start DATETIME2,
+    processing_end DATETIME2,
+    duration_seconds AS DATEDIFF(SECOND, processing_start, processing_end),
+    error_summary NVARCHAR(1000),     -- first 5 errors only
+    pipeline_version NVARCHAR(20),
+    created_at DATETIME2 DEFAULT SYSDATETIME()
+);
