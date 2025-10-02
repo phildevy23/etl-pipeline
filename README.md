@@ -1,5 +1,7 @@
 # etl-pipeline
 
+https://github.com/ingwanelabs/etl-pipeline/blob/main/etl/data-enrichment_load.ipynb
+
 ## Structure of raw_data
 
 |customer_id       |Unique Identifier for each Customer                                                                                                      |
