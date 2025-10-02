@@ -3,7 +3,7 @@ CREATE TABLE business (
     company VARCHAR(100) NOT NULL,
     companysize VARCHAR(20),
     industry VARCHAR(50),
-    annual_revenue DECIMAL(15, 2)
+    annual_revenue BIGINT
 );
 
 CREATE TABLE location (
@@ -26,3 +26,4 @@ CREATE TABLE customer (
     FOREIGN KEY (business_id) REFERENCES business(business_id),
     FOREIGN KEY (postcode) REFERENCES location(postcode)
 );
+
