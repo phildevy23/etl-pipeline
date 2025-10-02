@@ -2,6 +2,7 @@
 -- GOLD LAYER STAR SCHEMA
 -- =========================
 
+CREATE SCHEMA gold
 -- Dimension: Business
 CREATE TABLE gold.dim_business (
     business_sk INT PRIMARY KEY IDENTITY(1,1),
@@ -52,3 +53,4 @@ CREATE TABLE gold.fact_sales (
     FOREIGN KEY (business_sk) REFERENCES gold.dim_business(business_sk),
     FOREIGN KEY (location_sk) REFERENCES gold.dim_location(location_sk)
 );
+
