@@ -29,7 +29,7 @@ https://github.com/ingwanelabs/etl-pipeline/blob/main/etl/data-enrichment_load.i
 
 
 
-About Audit table / Child Audit table 
+## About Audit table / Child Audit table 
 
 When the Python ETL script starts, it first generates a **unique batch identifier (batch_id)** using the `uuid` library. This batch_id acts as a correlation key that links all events and operations belonging to a single pipeline execution. By generating the batch_id at the very beginning, every record processed in that run — whether it results in an insert, update, or failure — can be traced back to the same batch.
 
