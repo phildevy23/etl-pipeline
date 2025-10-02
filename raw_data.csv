@@ -1,0 +1,102 @@
+customer_id,firstname,lastname,email,phone,postcode,region,country,district,latitude,longitude,business_id,company,companysize,industry,annual_revenue,calculated_risk,risk_score_numeric,risk_factors,status
+1,James,Smith,james.smith@email.com,07700900123,SW1A 1AA,London,England,Westminster,51.5014,-0.1419,1,TechVision Solutions,Large,Technology,15000000,low,0,Standard,active
+2,Emma,Johnson,emma.johnson@email.com,07700900124,M1 1AE,North West,England,Manchester,53.4808,-2.2426,2,Global Finance Corp,Enterprise,Finance,45000000,low,0,Standard,active
+3,Oliver,Williams,oliver.williams@email.com,07700900125,B1 1AA,West Midlands,England,Birmingham,52.4862,-1.8904,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,medium,2,High-Risk Location,active
+4,Amelia,Brown,amelia.brown@email.com,07700900126,L1 1AA,North West,England,Liverpool,53.4084,-2.9916,4,Retail Innovations,Small,Retail,2500000,low,5,"Account Suspended, Small Business",suspended
+5,George,Jones,george.jones@email.com,07700900127,LS1 1AA,Yorkshire,England,Leeds,53.8008,-1.5491,5,Manufacturing Pro,Medium,Manufacturing,12000000,low,0,Standard,active
+6,Isla,Taylor,isla.taylor@email.com,07700900128,NE1 1AA,North East,England,Newcastle,54.9783,-1.6178,1,TechVision Solutions,Large,Technology,15000000,medium,1,Standard,active
+7,Noah,Davies,noah.davies@email.com,07700900129,BS1 1AA,South West,England,Bristol,51.4545,-2.5879,2,Global Finance Corp,Enterprise,Finance,45000000,high,2,Standard,active
+8,Ava,Evans,ava.evans@email.com,07700900130,CV1 1AA,West Midlands,England,Coventry,52.4068,-1.5197,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,low,1,Standard,active
+9,Charlie,Wilson,charlie.wilson@email.com,07700900131,NG1 1AA,East Midlands,England,Nottingham,52.9548,-1.1581,4,Retail Innovations,Small,Retail,2500000,medium,4,Small Business,active
+10,Mia,Thomas,mia.thomas@email.com,07700900132,S1 1AA,,,,,,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,5,Account Suspended,suspended
+11,Leo,Roberts,leo.roberts@email.com,07700900133,PE1 1AA,East,England,Peterborough,52.5695,-0.2405,1,TechVision Solutions,Large,Technology,15000000,high,1,Standard,active
+12,Sophia,Walker,sophia.walker@email.com,07700900134,GL1 1AA,South West,England,Gloucester,51.8642,-2.2382,2,Global Finance Corp,Enterprise,Finance,45000000,low,3,Standard,active
+13,Harry,White,harry.white@email.com,07700900135,OX1 1AA,South East,England,Oxford,51.752,-1.2577,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,medium,3,Standard,active
+14,Emily,Hughes,emily.hughes@email.com,07700900136,BN1 1AA,South East,England,Brighton,50.8225,-0.1372,4,Retail Innovations,Small,Retail,2500000,medium,0,"High-Risk Location,Small Business",active
+14,Emily,Hughes,emily.hughes@email.com,07700900136,BN1 1AA,South East,England,Brighton,50.8225,-0.1372,4,Retail Innovations,Small,Retail,2500000,medium,0,"High-Risk Location,Small Business",active
+15,Jack,Green,jack.green@email.com,07700900137,SO14 1AA,South East,England,Southampton,50.9097,-1.4044,5,Manufacturing Pro,Medium,Manufacturing,12000000,high,1,Standard,active
+16,Poppy,Edwards,poppy.edwards@email.com,07700900138,CF10 1AA,Wales,Wales,Cardiff,51.4816,-3.1791,1,TechVision Solutions,Large,Technology,15000000,medium,0,High-Risk Location,active
+17,Oscar,Lewis,oscar.lewis@email.com,07700900139,EH1 1AA,Scotland,Scotland,Edinburgh,55.9533,-3.1883,2,Global Finance Corp,Enterprise,Finance,45000000,high,0,Standard,active
+18,Lily,Clarke,lily.clarke@email.com,07700900140,AB10 1AA,Scotland,Scotland,Aberdeen,57.1497,-2.0943,3,,,,,medium,2,High-Risk Location,active
+19,Thomas,Hall,thomas.hall@email.com,07700900141,DD1 1AA,Scotland,Scotland,Dundee,56.462,-2.9707,4,Retail Innovations,Small,Retail,2500000,high,5,"Account Suspended,Small Business",suspended
+20,Grace,Allen,grace.allen@email.com,07700900142,G1 1AA,Scotland,Scotland,Glasgow,55.8642,-4.2518,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,0,Standard,active
+21,Alfie,Young,alfie.young@email.com,07700900143,BT1 1AA,Northern Ireland,Northern Ireland,Belfast,54.5973,-5.9301,1,TechVision Solutions,Large,Technology,15000000,high,1,Standard,active
+22,Ella,King,ella.king@email.com,07700900144,SW1A 1AA,London,England,Westminster,51.5014,-0.1419,2,Global Finance Corp,Enterprise,Finance,45000000,low,,,
+23,William,Wright,william.wright@email.com,07700900145,M1 1AE,North West,England,Manchester,53.4808,-2.2426,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,medium,1,Standard,active
+24,Freya,Scott,freya.scott@email.com,07700900146,B1 1AA,West Midlands,England,Birmingham,52.4862,-1.8904,4,Retail Innovations,Small,Retail,2500000,low,4,Small Business,active
+25,Henry,Turner,henry.turner@email.com,07700900147,L1 1AA,North West,England,Liverpool,53.4084,-2.9916,5,Manufacturing Pro,Medium,Manufacturing,12000000,low,5,Account Suspended,suspended
+26,Evie,Hill,evie.hill@email.com,mob 07700900148,LS1 1AA,Yorkshire,England,Leeds,53.8008,-1.5491,1,TechVision Solutions,Large,Technology,15000000,medium,1,Standard,active
+27,Archie,Moore,archie.moore@email.com,07700900149,NE1 1AA,North East,England,Newcastle,54.9783,-1.6178,2,Global Finance Corp,Enterprise,Finance,45000000,high,3,Standard,active
+28,Florence,Cooper,florence.cooper@email.com,07700900150,BS1 1AA,South West,England,Bristol,51.4545,-2.5879,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,low,5,Standard,active
+29,Lucas,Bell,lucas.bell@email.com,07700900151,CV1 1AA,West Midlands,England,Coventry,52.4068,-1.5197,4,Retail Innovations,Small,Retail,2500000,medium,0,Small Business,active
+30,Ivy,Ward,ivy.ward@email.com,07700900152,NG1 1AA,East Midlands,England,Nottingham,52.9548,-1.1581,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,1,Standard,active
+31,Arthur,Bailey,arthur.bailey@email.com,07700900153,S1 1AA,Yorkshire,England,Sheffield,53.3811,-1.4701,1,TechVision Solutions,Large,Technology,15000000,high,2,High-Risk,active
+32,Rosie,Foster,rosie.foster@email.com,07700900154,PE1 1AA,East,England,Peterborough,52.5695,-0.2405,2,Global Finance Corp,Enterprise,Finance,45000000,low,1,Standard,active
+33,Teddy,Parker,teddy.parker@email.com,07700900155,GL1 1AA,South West,England,Gloucester,51.8642,-2.2382,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,medium,4,Standard,active
+34,Daisy,Richardson,daisy.richardson@email.com,07700900156,OX1 1AA,South East,England,Oxford,51.752,-1.2577,4,Retail Innovations,Small,Retail,2500000,low,5,"Account Suspended,Small Business",suspended
+35,Freddie,Cox,freddie.cox@email.com,07700900157,BN1 1AA,South East,England,Brighton,50.8225,-0.1372,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,0,High-Risk Location,active
+36,Isabella,Howard,isabella.howard@email.com,07700900158,SO14 1AA,South East,England,Southampton,50.9097,-1.4044,1,TechVision Solutions,Large,Technology,15000000,high,0,Standard,active
+37,Finley,Russell,finley.russell@email.com,07700900159,CF10 1AA,Wales,Wales,Cardiff,51.4816,-3.1791,2,Global Finance Corp,Enterprise,Finance,45000000,low,2,High-Risk Location,active
+38,Phoebe,Watson,phoebe.watson@email.com,07700900160,EH1 1AA,Scotland,Scotland,Edinburgh,55.9533,-3.1883,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,medium,5,Standard,active
+39,Max,Brooks,max.brooks@email.com,07700900161,AB10 1AA,Scotland,Scotland,Aberdeen,57.1497,-2.0943,4,Retail Innovations,Small,Retail,2500000,medium,0,"High-Risk Location,Small Business",active
+40,Sienna,Morgan,sienna.morgan@email.com,07700900162,DD1 1AA,Scotland,Scotland,Dundee,56.462,-2.9707,5,Manufacturing Pro,Medium,Manufacturing,12000000,low,1,Standard,active
+41,Elijah,Graham,elijah.graham@email.com,07700900163,G1 1AA,Scotland,Scotland,Glasgow,55.8642,-4.2518,1,TechVision Solutions,Large,Technology,15000000,medium,2,Standard,active
+42,Matilda,Powell,matilda.powell@email.com,,BT1 1AA,Northern Ireland,Northern Ireland,Belfast,54.5973,-5.9301,2,Global Finance Corp,Enterprise,Finance,45000000,low,1,Standard,active
+43,Sebastian,Cole,sebastian.cole@email.com,07700900165,SW1A 1AA,London,England,Westminster,51.5014,-0.1419,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,low,4,Standard,active
+44,Willow,Price,willow.price@email.com,07700900166,M1 1AE,North West,England,Manchester,53.4808,-2.2426,4,Retail Innovations,Small,Retail,2500000,medium,5,"Account Suspended,Small Business",suspended
+45,Ethan,Bennett,ethan.bennett@email.com,07700900167,B1 1AA,West Midlands,England,Birmingham,52.4862,-1.8904,5,Manufacturing Pro,Medium,Manufacturing,12000000,high,1,Standard,active
+46,Maya,Wood,maya.wood@email.com,07700900168,L1 1AA,North West,England,Liverpool,53.4084,-2.9916,1,TechVision Solutions,Large,Technology,15000000,low,3,Standard,active
+47,Alexander,Barnes,alexander.barnes@email.com,07700900169,LS1 1AA,,,,,,2,Global Finance Corp,Enterprise,Finance,45000000,medium,3,Standard,active
+48,Ruby,Marshall,ruby.marshall@email.com,07700900170,NE1 1AA,North East,England,Newcastle,54.9783,-1.6178,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,medium,0,Standard,active
+49,Benjamin,Ross,benjamin.ross@email.com,07700900171,BS1 1AA,South West,England,Bristol,51.4545,-2.5879,4,Retail Innovations,Small,Retail,2500000,high,1,Small Business,active
+50,Violet,Stone,violet.stone@email.com,07700900172,CV1 1AA,West Midlands,England,Coventry,52.4068,-1.5197,5,Manufacturing Pro,Medium,Manufacturing,12000000,low,0,Standard,active
+51,Jacob,Harrison,jacob.harrison@email.com,07700900173,NG1 1AA,East Midlands,England,Nottingham,52.9548,-1.1581,1,TechVision Solutions,Large,Technology,15000000,medium,0,Standard,active
+52,Luna,Reed,luna.reed@email.com,07700900174,S1 1AA,Yorkshire,England,Sheffield,53.3811,-1.4701,2,Global Finance Corp,Enterprise,Finance,45000000,low,2,High-Risk,active
+53,Muhammad,Palmer,muhammad.palmer@email.com,07700900175,PE1 1AA,East,England,Peterborough,52.5695,-0.2405,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,medium,5,Account Suspended,suspended
+54,Esme,Mitchell,esme.mitchell@email.com,07700900176,GL1 1AA,South West,England,Gloucester,51.8642,-2.2382,4,Retail Innovations,Small,Retail,2500000,high,0,Small Business,active
+55,Logan,Carter,logan.carter@email.com,07700900177,OX1 1AA,South East,England,Oxford,51.752,-1.2577,5,Manufacturing Pro,Medium,Manufacturing,12000000,low,1,Standard,active
+56,Millie,Phillips,millie.phillips@email.com,07700900178,BN1 1AA,South East,England,Brighton,50.8225,-0.1372,1,TechVision Solutions,Large,Technology,15000000,medium,2,High-Risk Location,active
+57,Joshua,Kelly,joshua.kelly@email.com,07700900179,SO14 1AA,South East,England,Southampton,50.9097,-1.4044,2,Global Finance Corp,Enterprise,Finance,45000000,medium,1,Standard,active
+58,Harriet,Cook,harriet.cook@email.com,07700900180,CF10 1AA,Wales,Wales,Cardiff,51.4816,-3.1791,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,high,4,High-Risk Location,active
+59,Samuel,Rogers,samuel.rogers@email.com,07700900181,EH1 1AA,Scotland,Scotland,Edinburgh,55.9533,-3.1883,4,Retail Innovations,Small,Retail,2500000,low,5,"Account Suspended,Small Business",suspended
+60,Sophie,Murphy,sophie.murphy@email.com,,AB10 1AA,Scotland,Scotland,Aberdeen,57.1497,-2.0943,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,1,High-Risk Location,active
+61,Isaac,Henderson,isaac.henderson@email.com,07700900183,DD1 1AA,Scotland,Scotland,Dundee,56.462,-2.9707,1,TechVision Solutions,Large,Technology,15000000,medium,5,Account Suspended,suspended
+62,Scarlett,Adams,scarlett.adams@email.com,07700900184,G1 1AA,Scotland,Scotland,Glasgow,55.8642,-4.2518,2,Global Finance Corp,Enterprise,Finance,45000000,medium,1,Standard,active
+63,Daniel,Webb,daniel.webb@email.com,07700900185,BT1 1AA,Northern Ireland,Northern Ireland,Belfast,54.5973,-5.9301,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,high,3,Standard,active
+64,Evelyn,Shaw,evelyn.shaw@email.com,07700900186,SW1A 1AA,,,,,,4,Retail Innovations,Small,Retail,2500000,low,3,Small Business,active
+65,Nathan,Collins,nathan.collins@email.com,07700900187,M1 1AE,North West,England,Manchester,53.4808,-2.2426,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,0,Standard,active
+66,Hannah,Jenkins,hannah.jenkins@email.com,07700900188,B1 1AA,West Midlands,England,Birmingham,52.4862,-1.8904,1,TechVision Solutions,Large,Technology,15000000,low,1,Standard,active
+67,Dylan,Hughes,dylan.hughes@email.com,07700900189,L1 1AA,North West,England,Liverpool,53.4084,-2.9916,2,Global Finance Corp,Enterprise,Finance,45000000,low,0,Standard,active
+68,Emilia,Simpson,emilia.simpson@email.com,,LS1 1AA,Yorkshire,England,Leeds,53.8008,-1.5491,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,medium,0,Standard,active
+69,Zachary,Hunt,zachary.hunt@email.com,07700900191,NE1 1AA,North East,England,Newcastle,54.9783,-1.6178,4,Retail Innovations,Small,Retail,2500000,high,2,Small Business,active
+70,Chloe,Gibson,chloe.gibson@email.com,07700900192,BS1 1AA,South West,England,Bristol,51.4545,-2.5879,5,Manufacturing Pro,Medium,Manufacturing,12000000,low,5,Account Suspended,suspended
+71,Joseph,Stevens,joseph.stevens@email.com,07700900193,CV1 1AA,West Midlands,England,Coventry,52.4068,-1.5197,1,TechVision Solutions,Large,Technology,15000000,medium,0,Standard,active
+72,Alice,Fletcher,alice.fletcher@email.com,07700900194,NG1 1AA,East Midlands,England,Nottingham,52.9548,-1.1581,2,Global Finance Corp,Enterprise,Finance,45000000,medium,1,Standard,active
+73,Mason,Arnold,mason.arnold@email.com,07700900195,S1 1AA,Yorkshire,England,Sheffield,53.3811,-1.4701,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,high,1,Standard,active
+74,Layla,Warren,layla.warren@email.com,07700900196,PE1 1AA,East,England,Peterborough,52.5695,-0.2405,4,Retail Innovations,Small,Retail,2500000,low,2,Small Business,active
+75,Jayden,Ellis,jayden.ellis@email.com,07700900197,GL1 1AA,South West,England,Gloucester,99999,99999,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,5,Account Suspended,suspended
+76,Charlotte,Owen,charlotte.owen@email.com,07700900198,OX1 1AA,South East,England,Oxford,51.752,-1.2577,1,TechVision Solutions,Large,Technology,15000000,medium,1,Standard,active
+77,Ryan,Chapman,ryan.chapman@email.com,07700900199,BN1 1AA,South East,England,Brighton,50.8225,-0.1372,2,Global Finance Corp,Enterprise,Finance,45000000,low,3,High-Risk Location,active
+78,Arabella,Mason,arabella.mason@email.com,07700900200,SO14 1AA,South East,England,Southampton,50.9097,-1.4044,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,low,3,Standard,active
+79,Luke,Dixon,luke.dixon@email.com,07700900201,CF10 1AA,Wales,Wales,Cardiff,51.4816,-3.1791,4,Retail Innovations,Small,Retail,2500000,medium,0,"High-Risk Location,Small Business",active
+80,Ellie,Fowler,ellie.fowler@email.com,07700900202,EH1 1AA,Scotland,Scotland,Edinburgh,55.9533,-3.1883,5,Manufacturing Pro,Medium,Manufacturing,12000000,low,1,Standard,active
+81,Reuben,Gardner,reuben.gardner@email.com,07700900203,AB10 1AA,Scotland,Scotland,Aberdeen,57.1497,-2.0943,1,TechVision Solutions,Large,Technology,15000000,low,0,High-Risk Location,active
+82,Isabelle,Bradley,isabelle.bradley@email.com,07700900204,DD1 1AA,Scotland,Scotland,Dundee,56.462,-2.9707,2,Global Finance Corp,Enterprise,Finance,45000000,medium,0,Standard,active
+83,Adam,Holmes,adam.holmes@email.com,,G1 1AA,Scotland,Scotland,Glasgow,55.8642,-4.2518,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,high,2,Standard,active
+84,Maisie,Knight,maisie.knight@email.com,07700900206,BT1 1AA,Northern Ireland,Northern Ireland,Belfast,54.5973,-5.9301,4,Retail Innovations,Small,Retail,2500000,low,5,"Account Suspended,Small Business",suspended
+85,Gabriel,Reid,gabriel.reid@email.com,07700900207,SW1A 1AA,London,England,Westminster,51.5014,-0.1419,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,0,Standard,active
+86,Lola,Harper,lola.harper@email.com,07700900208,M1 1AE,North West,England,Manchester,53.4808,-2.2426,1,TechVision Solutions,Large,Technology,15000000,medium,1,Standard,active
+87,Harrison,Grant,harrison.grant@email.com,07700900209,B1 1AA,West Midlands,England,Birmingham,52.4862,-1.8904,2,Global Finance Corp,Enterprise,Finance,45000000,high,5,Standard,active
+88,Amber,Ferguson,amber.ferguson@email.com,07700900210,L1 1AA,North West,England,Liverpool,53.4084,-2.9916,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,low,1,Standard,active
+89,David,Duncan,david.duncan@email.com,07700900211,LS1 1AA,Yorkshire,England,Leeds,53.8008,-1.5491,4,Retail Innovations,Small,Retail,2500000,medium,3,Small Business,active
+90,Penelope,Berry,penelope.berry@email.com,07700900212,NE1 1AA,North East,England,Newcastle,54.9783,-1.6178,5,Manufacturing Pro,Medium,Manufacturing,12000000,low,3,Standard,active
+91,Cameron,Wallace,cameron.wallace@email.com,07700900213,BS1 1AA,South West,England,Bristol,51.4545,-2.5879,1,TechVision Solutions,Large,Technology,,medium,0,Standard,active
+92,Jessica,Boyd,jessica.boyd@email.com,07700900214,CV1 1AA,West Midlands,England,Coventry,52.4068,-1.5197,2,Global Finance Corp,Enterprise,Finance,45000000,high,1,Standard,active
+93,Aaron,West,aaron.west@email.com,07700900215,NG1 1AA,East Midlands,England,Nottingham,52.9548,-1.1581,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,low,0,Standard,active
+94,Beatrice,Fletcher,beatrice.fletcher@email.com,07700900216,S1 1AA,Yorkshire,England,Sheffield,53.3811,-1.4701,4,Retail Innovations,Small,Retail,2500000,medium,0,Small Business,active
+95,Edward,Spencer,edward.spencer@email.com,07700900217,PE1 1AA,East,England,Peterborough,52.5695,-0.2405,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,2,Standard,active
+96,Lydia,Burton,lydia.burton@email.com,07700900218,GL1 1AA,South West,England,Gloucester,51.8642,-2.2382,1,TechVision Solutions,Large,Technology,15000000,medium,5,Account Suspended,suspended
+97,Callum,Porter,callum.porter@email.com,07700900219,OX1 1AA,South East,England,Oxford,51.752,-1.2577,2,Global Finance Corp,Enterprise,Finance,45000000,medium,0,Standard,active
+98,Zara,Robertson,zara.robertson@email.com,07700900220,BN1 1AA,South East,England,Brighton,50.8225,-0.1372,3,Healthcare Plus Ltd,Medium,Healthcare,8500000,high,1,High-Risk Location,active
+99,Lewis,Fletcher,lewis.fletcher@email.com,07700900221,SO14 1AA,South East,England,Southampton,50.9097,-1.4044,4,Retail Innovations,Small,Retail,2500000,low,0,Small Business,active
+100,Gracie,Austin,gracie.austin@email.com,07700900222,CF10 1AA,Wales,Wales,Cardiff,51.4816,-3.1791,5,Manufacturing Pro,Medium,Manufacturing,12000000,medium,1,High-Risk Location,active
