@@ -19,3 +19,24 @@ CREATE TABLE enrichment_audit (
     pipeline_version NVARCHAR(20),
     created_at DATETIME2 DEFAULT SYSDATETIME()
 );
+
+
+-- Child Error Table (Detailed Errors)
+
+-- Full traceability of which record failed and why.
+
+-- Links back to audit_id.
+
+-- Allows you to query error patterns (e.g., same column failing multiple times).
+
+CREATE TABLE enrichment_audit_errors (
+    error_id INT IDENTITY(1,1) PRIMARY KEY,
+    audit_id INT FOREIGN KEY REFERENCES enrichment_audit(audit_id),
+    record_id NVARCHAR(100),          -- request_id, customer_id, etc.
+    operation_type NVARCHAR(20),      -- INSERT / UPDATE / DELETE
+    error_message NVARCHAR(MAX),
+    created_at DATETIME2 DEFAULT SYSDATETIME()
+);
+
+
+
