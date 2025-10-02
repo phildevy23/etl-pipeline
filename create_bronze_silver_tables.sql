@@ -1,3 +1,4 @@
+create schema bronze
 create table bronze.raw_data (
 	customer_id varchar(255),
 	firstname varchar(255),
@@ -23,7 +24,7 @@ create table bronze.raw_data (
 	ingestion_datetime datetime2(3)
 	)
 
-
+create schema silver 
 create table silver.raw_data (
 	customer_id int,
 	firstname varchar(255),
@@ -50,3 +51,4 @@ create table silver.raw_data (
 	modified_datetime datetime2(3),
 	revision_id int
 	)
+
